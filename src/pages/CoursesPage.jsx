@@ -4,11 +4,14 @@ const CoursesPage = () => {
      return (
         <div>
             <Header/>
-            <h1  style={{color:"blue"}}> Our Academic Programs </h1>
+            <h1>  Our Academic Programs </h1>
+            
             <p> vivekanand College offers a comperhensive range of undergraduate and postgraduate programs desingned to equip students with
                 the knowledge and skills demanded by todays dynamic global landscape.Our curriculum is regularly updated to reflect industry
                 trends and academic advancements. </p>
                 <h2>Discover Campus Life</h2>
+                <hr/><br/>
+                 <video src="\Videos\college-tour-FAmcnyfF.mp4" alt="video mp4" controls width="100%" height="auto"/>
                 <h2> Undergraduate Programs(UG)</h2>
                 <ul>
                     <li><b>Bachelor of Science (B.Sc.)</b></li>
@@ -33,7 +36,7 @@ const CoursesPage = () => {
                     <li><b> Master Of Arts (M.A)</b>(2year)</li>
                 </ul>
                 <h2> Program Detail And Fee Structure (Annual)</h2>
-                <table border="1">
+                <table  border="1" className="course-table">
                     <tr>
                         <th> Program Type</th>
                         <th> Course Name</th>
@@ -69,7 +72,8 @@ const CoursesPage = () => {
                 <p> In Addition to traditional degree programs.we offer various certificate and deploma courses in areas like Degital Marketing,
                     Web Development ,Data Analytics ,and Soft Skills Development, provideng specislized training for career enhancement.
                 </p>
-                <center> Have question about specific course ?</center>
+                <center> <p>Have question about specific course ?</p></center><br/>
+                <center> <a href="/Contact" className="btn"> Inquire About Courses</a></center>
                 
         </div>
      )

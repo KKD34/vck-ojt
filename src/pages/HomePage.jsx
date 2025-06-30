@@ -4,11 +4,24 @@ const HomePage = () => {
      return(
         <div>
            <Header/>
-            <h1> Vck OJT</h1>
-            <p> This is my first project</p>
-            <p><b> Vivekanand College</b> Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.
-            <p> 
-At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
+           
+           <div className="main-section">
+            <img src="\Images\college-banner-Cz0xylpt.png"  className="img-logo" alt=" vck college photo" style={{width:"100%",objectFit:"fill",filter:"brightness(60%)"}}/>
+            <div className="second-main"> 
+                <h1 style={{color:"white"}}>Welcome to Vivekanand 
+                 College!
+                </h1>
+                <p style={{ color:"white"}}> Your Journey to Excellence Starts Here.</p><br/>
+           <a className="btn hero-btn" href="/Admission"> Apply Now!</a>
+           </div>
+           
+           </div>
+            <p><b> Vivekanand College</b> Vivekanand College is a premier educational institution dedicated to
+             fostering academic excellence, innovation, and holistic development. 
+            Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.
+            
+            At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, 
+        experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.
             </p>
             <h2> Why Choose Vivekanand College ?</h2>
             <ul>
@@ -19,9 +32,21 @@ At Vivekanand College, we believe in a vibrant learning environment that extends
                 <li> <b> Strong Placement:</b> Excellent career opportunity with leading companies.</li>
             </ul>
             <h2> Campus Life and Facilities</h2>
-            <p> Explore our vibrant campus and state=of-the-art facilities desingned to enhance your learning experience and personal growth</p>
+            <hr/>
+           
+            <div className="image">
+            <img src="\Images\students-studying-DbLGuwF_.jpeg" alt="student studying" style={{height:"100%",width:"100%",border:"2px"}}/>
+            
+         
+            <img src="\Images\campus-life-Crkero7B.jpg" alt="campus photo" style={{height:"100%",width:"100%",border:"2px"}}/>
+         
+            </div>
+            <p> Explore our vibrant campus and state-of-the-art facilities desingned to enhance your learning experience and personal growth</p><br/>
             <center> Ready to explore our courses ?</center>
-        </div>
+            <br/>
+            <center> <a className="btn1" href="/courses"> Explore Courses</a></center>
+            
+        </div> 
      )
 }
 

@@ -1,0 +1,162 @@
+.image{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+}
+.image img:hover{
+    transform: scale(1.05);
+    
+}
+
+
+.img-logo{
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    height:100%;
+}
+@media(max-width:786px){
+    .img-logo{
+        height:250px;
+    }
+    
+}
+.course-table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:20px;
+    background-color: #f8f9fa;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px;
+}
+.course-table th,
+.course-table td{
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: left;
+}
+.course-table th{
+    background-color: #f3f3f3;
+    color:#333
+}
+.course-table tr:nth-child(even){
+    background-color: #f9f9f9;
+
+}
+.course-table tr:hover{
+    background-color: #e6f7ff;
+}
+.about-page{
+   opacity:0;
+   transform:translateY(30px);
+   animation:slideUpHeading 1s ease-out forwards;
+}
+@keyframes slideUpHeading {
+to{
+ opacity:1;
+ transform:translateY(0);
+}
+}
+
+.btn{
+    background-color: #28a745;
+    color:rgb(255, 255, 255);
+    padding:10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+}
+.btn:hover{
+    background-color: #11812b;
+}
+.main-section{
+    position:relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+.second-main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align: center;
+    width:100%;
+    font-weight: 200;
+
+}
+.second-main p{
+    font-size: 1.4rem;
+}
+
+.second-main h1{
+    font-size: 3.4rem;
+}
+
+@media(max-width:768px){
+    .second-main h1{
+    font-size: 2.2rem;
+}
+
+.btn.hero-btn{
+    padding: 10px 20px;
+    font-size: 1em;
+    
+}
+.second-main{
+    height:250px;
+    margin-top: 1%;
+    top: 150px;
+}
+.second-main p{
+    font-size: 16px;
+}
+.main-section{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+  
+}
+
+.hero-btn{
+    background-color: #28a745;
+    font-size: 1.2em;
+    padding:15px 20px;
+    text-decoration: underline;
+}
+.second-main a{
+    color:rgb(8, 8, 137);
+    
+}
+.btn1{
+    padding:10px 25px;
+    background-color: #28a745;
+    text-decoration: none;
+    color:white;
+}
+.btn1:hover{
+    background-color: #117629;
+}
+hr{
+    border:none;
+    height:1px;
+    background-color: rgba(243, 237, 237, 0.878);
+   
+}
+
