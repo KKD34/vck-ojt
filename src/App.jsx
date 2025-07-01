@@ -14,11 +14,21 @@ import './styles/Pages.css'
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 
 import Footer from "./components/Footer/Footer";
-import { useState } from "react";
+import { useState ,useEffect } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
 const App = () => {
-  const [showPopup, setShowPopup] = useState(true);
+  // const [showPopup, setShowPopup] = useState(true);
+  const [showPopup ,setShowPopup] = useState(false);
+  useEffect(() => {
+    const alreadyShown =
+      localStorage.getItem("popupShown");
+      if(!alreadyShown){
+        setShowPopup(true);
+        localStorage.setItem("popupShown","true");
+      }
+    
+  } ,[] );
   const handleClosePopup = () => {
     setShowPopup(false);
   };
