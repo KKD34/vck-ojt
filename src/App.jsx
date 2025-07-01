@@ -19,15 +19,16 @@ import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
 const App = () => {
   
-  const [showPopup ,setShowPopup] = useState(true);
+  const [showPopup ,setShowPopup] = useState(false);
   useEffect(() => {
     const alreadyShown =
       localStorage.getItem("popupShown");
-      if(!alreadyShown){
+      if(alreadyShown){
         setShowPopup(true);
         localStorage.setItem("popupShown","true");
+      
       }
-    
+     
   } ,[] );
   const handleClosePopup = () => {
     setShowPopup(false);
@@ -36,6 +37,7 @@ const App = () => {
   return (
     <>
     <div>
+      
         {/* Your main application content */}
         <DeveloperInfoPopup
           show={showPopup}
@@ -50,6 +52,7 @@ const App = () => {
       
       <div className="page-wrapper">
    <Router> 
+    
       <Routes> 
       
        <Route path="/" element={<HomePage/>} />

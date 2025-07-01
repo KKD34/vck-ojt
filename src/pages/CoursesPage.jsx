@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
 
 const CoursesPage = () => {
@@ -73,7 +74,7 @@ const CoursesPage = () => {
                     Web Development ,Data Analytics ,and Soft Skills Development, provideng specislized training for career enhancement.
                 </p>
                 <center> <p>Have question about specific course ?</p></center><br/>
-                <center> <a   className="btn" href="/contact"> Inquire About Courses</a></center>
+                <center> <Link to="/contact"className="btn"> Inquire About Courses</Link></center>
                 
         </div>
      )

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
 
 const AdmissionPage = () => {
@@ -46,7 +47,8 @@ const AdmissionPage = () => {
                 <li> <b> Merit List And Interview:</b> Check the merit list and attend the interview if shortlisted.</li>
                 <li> <b> Fee Payment:</b> Complete the admission by paying the required fees.</li>
             </ol>
-            <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/courses"> Courses page</a> or <a href="/contact"> Contact Us</a> directly.</p>
+            <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our 
+               <Link to ="/courses"> Courses page </Link>  or <Link to="/contact"> Contact Us</Link> directly. </p>
         </div>
      )
 
