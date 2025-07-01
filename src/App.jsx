@@ -19,7 +19,7 @@ import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
 const App = () => {
   // const [showPopup, setShowPopup] = useState(true);
-  const [showPopup ,setShowPopup] = useState(false);
+  const [showPopup ,setShowPopup] = useState(true);
   useEffect(() => {
     const alreadyShown =
       localStorage.getItem("popupShown");
