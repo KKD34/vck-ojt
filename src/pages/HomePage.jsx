@@ -12,7 +12,7 @@ const HomePage = () => {
                  College!
                 </h1>
                 <p style={{ color:"white"}}> Your Journey to Excellence Starts Here.</p><br/>
-           <a className="btn hero-btn" href="/Admission"> Apply Now!</a>
+           <a className="btn hero-btn" href="/admission"> Apply Now!</a>
            </div>
            
            </div>

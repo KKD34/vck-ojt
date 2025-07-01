@@ -18,7 +18,7 @@ import { useState ,useEffect } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
 const App = () => {
-  // const [showPopup, setShowPopup] = useState(true);
+  
   const [showPopup ,setShowPopup] = useState(true);
   useEffect(() => {
     const alreadyShown =

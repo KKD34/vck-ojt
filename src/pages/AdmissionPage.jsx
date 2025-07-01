@@ -46,7 +46,7 @@ const AdmissionPage = () => {
                 <li> <b> Merit List And Interview:</b> Check the merit list and attend the interview if shortlisted.</li>
                 <li> <b> Fee Payment:</b> Complete the admission by paying the required fees.</li>
             </ol>
-            <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/Courses"> Courses page</a> or <a href="/Contact"> Contact Us</a> directly.</p>
+            <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/courses"> Courses page</a> or <a href="/contact"> Contact Us</a> directly.</p>
         </div>
      )
 
