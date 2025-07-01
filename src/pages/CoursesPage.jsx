@@ -73,7 +73,7 @@ const CoursesPage = () => {
                     Web Development ,Data Analytics ,and Soft Skills Development, provideng specislized training for career enhancement.
                 </p>
                 <center> <p>Have question about specific course ?</p></center><br/>
-                <center> <a href="/contact" className="btn"> Inquire About Courses</a></center>
+                <center> <a   className="btn" href="/contact"> Inquire About Courses</a></center>
                 
         </div>
      )
