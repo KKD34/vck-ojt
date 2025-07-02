@@ -37,7 +37,8 @@ const CoursesPage = () => {
                     <li><b> Master Of Arts (M.A)</b>(2year)</li>
                 </ul>
                 <h2> Program Detail And Fee Structure (Annual)</h2>
-                <table  border="1" className="course-table">
+                <div className="table-wrapper">
+                <table className="course-table">
                     <tr>
                         <th> Program Type</th>
                         <th> Course Name</th>
@@ -68,6 +69,7 @@ const CoursesPage = () => {
                         <td> B.Sc IT/CS (50%)</td>
                     </tr>
                 </table>
+                </div>
                 <h2> Specialized and Vocational Courses</h2>
                 <hr/>
                 <p> In Addition to traditional degree programs.we offer various certificate and deploma courses in areas like Degital Marketing,
