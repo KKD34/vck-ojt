@@ -10,7 +10,7 @@ const AboutPage = () => {
                  Located in the bustling heart of [City/Area, e.g., Chembur, Mumbai], our college has consistently strived to uphold the highest standards of academic rigor and ethical values.
 
                 Our vision is to empower students with critical thinking skills, a global perspective, and a strong sense of social responsibility. 
-                We aim to nurture individuals who are not only successful in their careers but also contributing members of society.
+                We aim to nurture individuals who are not only successful in their careers but also contributing members of a society.
 
 
             </p>

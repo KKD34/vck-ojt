@@ -16,16 +16,21 @@ const CoursesPage = () => {
                 <h2> Undergraduate Programs(UG)</h2>
                 <ul>
                     <li><b>Bachelor of Science (B.Sc.)</b></li>
+                    <ul>
                     <li>Computer Science (3 years)</li>
                     <li>Informantion Technology (3 years)</li>
                     <li>Biotechnology (3 years)</li>
+                    </ul>
                     <li><b> Bachelor of Commerce(B.com)</b></li>
+                    <ul>
                     <li>Accounting & Finance(3 years) </li>
                     <li>Banking & Insurance</li>
-                    
+                    </ul>
                      <li><b>Bachelor of Art (B.A)</b></li>
+                     <ul>
                      <li>English Literature</li>
-                     <li> Psychology</li>  
+                     <li> Psychology</li> 
+                     </ul> 
                 </ul>
                 <h2> Postgraduate Programs(PG)</h2>
                 <hr/>
