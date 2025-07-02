@@ -42,7 +42,7 @@
     border: 1px solid #ddd;
     padding: 10px 15px;
     text-align: left;
-    white-space: normal;
+    white-space: nowrap;
     word-wrap: break-word;
 }
 .course-table th{
@@ -56,11 +56,16 @@
 .course-table tr:hover{
     background-color: #e6f7ff;
 }
-@media (max-width:480px){
-    .table-scroll{
-        -webkit-overflow-scrolling: touch;
-    }
-    }
+.table-wrapper{
+    width:100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling:touch;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-decoration-break: 0 2px 8px rgba(0,0,0,0.1);
+    background: #f9f8fa;
+}
+
 
 .about-page{
    opacity:0;
