@@ -146,6 +146,11 @@ to{
 }
   
 }
+@media (max-width:600px){
+    .second-main{
+        top:50%;
+    }
+}
 
 .hero-btn{
     background-color: #28a745;
