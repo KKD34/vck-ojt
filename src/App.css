@@ -85,7 +85,7 @@
  }
  @media (max-width:480px){
   .app-container{
-    padding:10px;
+    padding-bottom:60px;
   }
  }
  img{
