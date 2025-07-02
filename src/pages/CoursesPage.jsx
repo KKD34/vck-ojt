@@ -8,7 +8,7 @@ const CoursesPage = () => {
             <h1>  Our Academic Programs </h1>
             
             <p> vivekanand College offers a comperhensive range of undergraduate and postgraduate programs desingned to equip students with
-                the knowledge and skills demanded by todays dynamic global landscape.Our curriculum is regularly updated to reflect industry
+                the knowledge and skills demanded by today dynamic global landscape.Our curriculum is regularly updated to reflect industry
                 trends and academic advancements. </p>
                 <h2>Discover Campus Life</h2>
                 <hr/><br/>
