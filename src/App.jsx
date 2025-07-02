@@ -17,6 +17,7 @@ import Footer from "./components/Footer/Footer";
 import { useState ,useEffect } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 
+
 const App = () => {
   
   const [showPopup ,setShowPopup] = useState(false);
@@ -36,6 +37,7 @@ const App = () => {
   
   return (
     <>
+    
     <div>
       
         {/* Your main application content */}

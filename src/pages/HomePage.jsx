@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
 
 const HomePage = () => {
@@ -12,7 +13,7 @@ const HomePage = () => {
                  College!
                 </h1>
                 <p style={{ color:"white"}}> Your Journey to Excellence Starts Here.</p><br/>
-           <a className="btn hero-btn" href="/admission"> Apply Now!</a>
+           <Link className="btn hero-btn" to="/admission"> Apply Now!</Link>
            </div>
            
            </div>
@@ -44,7 +45,7 @@ const HomePage = () => {
             <p> Explore our vibrant campus and state-of-the-art facilities desingned to enhance your learning experience and personal growth</p><br/>
             <center> Ready to explore our courses ?</center>
             <br/>
-            <center> <a className="btn1" href="/courses"> Explore Courses</a></center>
+            <center> <Link className="btn1" to="/courses"> Explore Courses</Link></center>
             
         </div> 
      )
